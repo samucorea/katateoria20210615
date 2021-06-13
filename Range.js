@@ -17,10 +17,10 @@ class Range {
 
         }
 
-        console.log(numbersInRange)
+        this.GetLength = () => numbersInRange.length;
 
 
     }
 }
 
-const range = new Range("(3,5)");
+module.exports = Range
